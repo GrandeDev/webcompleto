@@ -1,0 +1,94 @@
+/* LIMPANDO FORMATAÇÕES PADRÕES */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: lightgrey;
+
+}
+
+/* ***Layout*** */
+
+#area-cabecalho {
+    background-color: #F7B600;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+
+}
+
+#area-postangens, #area-lateral {
+    background: orange;
+
+}
+
+#area-principal {
+    background-color: white;
+    width: 0 auto;
+    margin: 0 auto;
+
+}
+
+#area-postangens {
+    float: left;
+}
+
+#area-lateral {
+    float: right;
+
+}
+
+#rodape {
+    background: green;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCCCCC;
+
+}
+
+/* 
+**** FORMATAÇÕES DO MENU
+*/
+
+a {
+    text-decoration: none;
+
+}
+
+a:link, a:visited {
+    color: #FFFFFF;
+    padding: 8px 12px;
+
+}
+
+a:hover {
+    color: #F7B600;
+    background: #FFFFFF;
+        
+    
+}
+
+
+/* FORMATAÇÕES EM GERAL */
+
+h1 {
+    color: #4E4E4E;
+    font-size: 2.5em;
+
+}
+
+.branco {
+    color: white;
+
+}

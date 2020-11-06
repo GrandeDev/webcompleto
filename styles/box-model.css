@@ -1,0 +1,63 @@
+/*
+Comentário aqui
+
+
+*/
+
+
+.container {
+    border: 1px solid red;
+    
+    /*
+        Aplique o espaçamento interno aonde você desejar
+        selecionando cada região da sua caixa da sua maneira
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    */
+
+    /*
+        Aplica o espaçamento interno nos 4 lados
+        com apenas 1 argumento
+
+    */
+    padding:  20px;
+
+
+    /*
+        E com apenas 2 argumentos aplica o espaçamento
+        interno correspondendo respectivamente o espaçamento
+        do topo(top) e inferior(bottom) e em seguindo
+        da direita(right) e esquerda(left)
+
+    padding: 20px 5px;
+    */
+
+/*  
+        Mesma lógica dos paddings abaixo
+
+    margin-top: 20px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    margin: 20px; <- Aplica o mesmo valor aos 4
+    
+    margin 20px 5px; <- Aplica o mesmo valor a 2 propriedades
+    verticais e 2 propriedades horizontais.
+
+    */
+
+
+}
+
+.cabeçalho {
+    border: 1px solid red;
+
+}
+
+.conteúdo {
+    border: 1px solid red;
+
+}

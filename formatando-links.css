@@ -1,0 +1,31 @@
+
+/*COMO FORMATAR LINKS **NÃO VISITADOS** */
+
+a:link { 
+    color: #000000;
+
+}
+
+/* COMO FORMATAR LINKS **VISITADOS** */
+
+a:visited {
+    color: #000000;
+
+}
+
+/* COMO FORMATAR LINKS QUANDO O MOUSE PASSA POR CIMA **HOVER** */
+
+a:hover {
+    color: #000000;
+
+}
+
+/* COMO FORMATAR LINKS **ATIVOS**  */
+
+a:active {
+    color: #000000;
+    
+}
+
+
+
